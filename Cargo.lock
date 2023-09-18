@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "example-bin"
+name = "dummy-bin"
 version = "0.1.0"

@@ -1,13 +1,3 @@
-[package]
-name = "dummy-bin"
-version = "0.1.0"
-edition = "2021"
-license = "BSD-3-Clause"
-description = "Dummy binary crate for testing"
-repository = "https://github.com/lovesegfault/dummy-bin"
-authors = ["Bernardo Meurer <bernardo@meurer.org>"]
-
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+resolver = "2"
+members = [ "dummy-bin" ]

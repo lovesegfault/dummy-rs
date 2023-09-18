@@ -1,1 +1,1 @@
-# example-bin
+# dummy-rs
