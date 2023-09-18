@@ -8,3 +8,6 @@ edition = "2021"
 license = "BSD-3-Clause"
 repository = "https://github.com/lovesegfault/dummy-rs"
 authors = ["Bernardo Meurer <bernardo@meurer.org>"]
+
+[patch.crates-io]
+dummy-lib = { path = "./dummy-lib" }
