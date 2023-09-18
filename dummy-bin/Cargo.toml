@@ -8,4 +8,4 @@ repository.workspace = true
 authors.workspace = true
 
 [dependencies]
-dummy-lib = "0.1"
+dummy-lib = "0.2"
