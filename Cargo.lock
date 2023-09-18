@@ -5,6 +5,9 @@ version = 3
 [[package]]
 name = "dummy-bin"
 version = "0.1.0"
+dependencies = [
+ "dummy-lib",
+]
 
 [[package]]
 name = "dummy-lib"
