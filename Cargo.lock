@@ -6,14 +6,8 @@ version = 3
 name = "dummy-bin"
 version = "0.3.0"
 dependencies = [
- "dummy-lib 0.2.0",
+ "dummy-lib",
 ]
-
-[[package]]
-name = "dummy-lib"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0274d7d1a73bf3e6809a7c21c169d135e5f554b5cc12415cd6c822386b4d2343"
 
 [[package]]
 name = "dummy-lib"
