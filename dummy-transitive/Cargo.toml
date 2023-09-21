@@ -1,0 +1,10 @@
+[package]
+name = "dummy-transitive"
+description = "Dummy library for testing, with no reverse dependencies"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]

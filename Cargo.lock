@@ -4,11 +4,15 @@ version = 3
 
 [[package]]
 name = "dummy-bin"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "dummy-lib",
 ]
 
 [[package]]
 name = "dummy-lib"
-version = "0.1.0"
+version = "0.2.0"
+
+[[package]]
+name = "dummy-transitive"
+version = "0.2.0"

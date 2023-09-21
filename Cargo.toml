@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = [ "dummy-bin", "dummy-lib" ]
+members = [ "dummy-bin", "dummy-lib", "dummy-transitive" ]
 
 [workspace.package]
 version = "0.2.0"
@@ -11,3 +11,4 @@ authors = ["Bernardo Meurer <bernardo@meurer.org>"]
 
 [patch.crates-io]
 dummy-lib = { path = "./dummy-lib" }
+dummy-transitive = { path = "./dummy-transitive" }
