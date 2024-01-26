@@ -1,10 +1,11 @@
 [package]
 name = "dummy-transitive"
 description = "Dummy library for testing, with no reverse dependencies"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
-repository.workspace = true
-authors.workspace = true
+version = "0.3.0"
+edition = "2021"
+license = "BSD-3-Clause"
+repository = "https://github.com/lovesegfault/dummy-rs"
+authors = ["Bernardo Meurer <bernardo@meurer.org>"]
+rust-version = "1.58.1"
 
 [dependencies]

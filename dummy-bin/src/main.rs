@@ -36,15 +36,12 @@ fn main() -> Result<(), DummyError> {
 
     let _bin_name = args.next();
 
-    let Some(num) = args.next() else {
-        return Err(DummyError::NoArg);
-    };
-
-    let num: i32 = num.parse().map_err(|e| DummyError::Parse(e))?;
-
-    let num_two = times_two(num);
-
-    println!("dummy-bin: {num} * 2 = {num_two}");
-
-    Ok(())
+    if let Some(num) = args.next() {
+        let num: i32 = num.parse().map_err(|e| DummyError::Parse(e))?;
+        let num_two = times_two(num);
+        println!("dummy-bin: {num} * 2 = {num_two}");
+        Ok(())
+    } else {
+        Err(DummyError::NoArg)
+    }
 }
